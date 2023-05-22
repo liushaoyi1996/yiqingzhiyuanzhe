@@ -246,7 +246,7 @@ CREATE TABLE `token` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='token表';
 
 -- ----------------------------
--- Records of token
+-- Records of token 上表最后一行deault关键字可能不兼容，考虑删除
 -- ----------------------------
 INSERT INTO `token` VALUES ('1', '1', 'abo', 'users', '管理员', '7oqs7yales3rqzsa06hmbqtnr3osumfx', '2023-01-17 08:38:07', '2023-01-17 11:55:56');
 INSERT INTO `token` VALUES ('2', '11', '用户1', 'yonghu', '用户', '3a53e1tw0lgoz4tnes0oj8r3o42w3w9d', '2023-01-17 08:58:59', '2023-01-17 13:01:26');
